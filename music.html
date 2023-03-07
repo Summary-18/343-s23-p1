@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Contributers</title>
+  <style>
+    header h1 {
+      font-weight: bold;
+      font-size: 50px;
+      text-align: center;
+      color: white;
+      background-color: #d18858;
+    }
+
+    header {
+        height: 30%;
+    }
+
+    h2 {
+        font-weight: normal;
+        font-size: 20px;
+        text-align: center;
+        height: 5%;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    body {
+      width: 97%;
+      margin: 0 auto;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      background-color: black;
+    }
+
+    main {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+      height: 100%;
+    }
+
+    nav li {
+      background-color: tan;
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+      padding: 20px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    nav a {
+      color: white;
+      font-weight: normal;
+      font-size: 150%;
+      text-decoration: none;
+      background-color:rgb(92, 56, 10);
+      text-align: center;
+      height: 60%;
+      width: 100%;
+    }
+
+    p {
+      font-size: 15px;
+      padding-right: 2%;
+      padding-left: 2%;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .person-photo {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border-radius: 120px;
+    }
+
+    .main-info {
+        width: 100%;
+        
+    }
+
+    .form h2 {
+        font-weight: normal;
+        font-size: 40px;
+        text-align: center;
+        height: 5%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .form {
+      font-size: 20px;
+      padding-bottom: 40px;
+      margin: 0 auto;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="ma-label">
+        <header>
+          <h1>Music and Arts</h1>
+        </header>
+        <h2>3 Black Americans Who Had Substantial Influence in Music and Arts</h2>
+    </div>
+<hr>
+<main>
+  <div class = "five-pages-3">
+    <nav>
+      <ul>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "sports.html">Sports and Entertainment</a></li>
+        <li><a href = "books.html">Literature</a></li>
+        <li><a href = "science.html">Science and Technology</a></li>
+        <li><a href = "music.html">Music and Arts</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="main-info">
+  <section>
+    <div>
+        <img class="person-photo"
+             src ="images/henry-tanner.jpg"
+             alt="Henry Tanner photo" >
+    </div>
+    <div>
+        <h3>1. Henry Ossawa Tanner, (1859-1937)</h3>
+        <p>
+          Henry Ossawa Tanner was the first African American 
+          painter to get immense recognition during the 1800s. 
+          His artwork focused on scenes inspired by the stories 
+          in the bible which was influenced by his upbringing as 
+          a minister’s son. Still today, his paintings remain valuable 
+          in our society and are showcased in prestigious museums 
+          including the Smithsonian American Art Museum.
+        </p>
+    </div>
+  </section>
+
+  <section>
+    <div>
+        <img class="person-photo"
+             src = "images/gerald-wilson.jpg"
+             alt= "Gerald Wilson photo">
+    </div>
+    <div>
+        <h3>2. Gerald Wilson, (1918-2014)</h3>
+        <p>
+          Gerald Wilson was a major innovator in jazz music 
+          with his remarkable compositions and work as an orchestra 
+          director. As a child, he learned piano from his mother and 
+          began his journey in the music world as a trumpet player. 
+          He played among other well-known artists like Duke Ellington 
+          and Ella Fitzgerald and thrived in his career to one day be 
+          able to record his music on the prestigious Pacific Jazz label. 
+          Lastly, he has been recognized for his many accomplishments but 
+          having his arrangements achieved by the Library of Congress and 
+          was honored by the National Endowment of the Arts with a Jazz Masters Award.
+        </p>
+    </div>
+  </section>
+
+  <section>
+    <div>
+        <img class="person-photo"
+             src ="images/gordon-parks.jpg"
+             alt="Gordon Parks photo" >
+    </div>
+    <div>
+        <h3>3. Gordon Parks, (1912-2006)</h3>
+        <p>
+          Gordon Park’s list of achievements is extensive, to say the least,
+           as he was a jazz pianist, who composed musical scores, wrote 15 
+           books and co-founded Essence magazine. However, the list doesn't 
+           stop there as he is also highly regarded for his photography. 
+           He traveled the country to capture the harsh reality of the 
+           segregated South and the events that took place during the civil 
+           rights movement all of which remain placed in major art museums today. 
+        </p>
+    </div>
+  </section>
+  </div>
+
+</main>
+<hr>
+  <div class="form">
+    <h2>Learn Anything New?</h2>
+    <form action = "#" method="get" class="learned">
+      <div class = "learned">
+        <label for="response">Enter anything new you learned:</label>
+        <input type="text" name="response" id="response" required>
+      </div>
+      <div class = "learned">
+        <label for="person">Enter anyone you think we should add:</label>
+        <input type="text" name="person" id="person" required>
+      </div>
+      <div class="learned">
+        <input type="submit" value="Submit!">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
